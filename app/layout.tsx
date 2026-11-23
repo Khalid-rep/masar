@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   title: 'الاستراتيجية التسويقية — معهد مسار التمكين',
   description: 'عرض استراتيجية التسويق وخطة المحتوى لمعهد مسار التمكين العالي للتدريب',
   generator: 'v0.app',
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false, noimageindex: true },
+  },
 }
 
 export const viewport: Viewport = {
